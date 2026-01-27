@@ -1,0 +1,24 @@
+{
+  "report_id": "SEC-2026-01-20-A",
+  "report_date": "2026-01-20",
+  "vulnerabilities": [
+    { "id": "VULN-301", "component": "api",     "package": "fastapi",        "current_version": "0.95.0", "cve": "CVE-2023-9991", "cvss": 8.1, "fix_version": "0.109.1", "license": "MIT",          "detected_at": "2026-01-11" },
+    { "id": "VULN-302", "component": "api",     "package": "pyjwt",          "current_version": "2.6.0",  "cve": "CVE-2022-23529", "cvss": 7.5, "fix_version": "",        "license": "MIT",          "detected_at": "2026-01-12" },
+    { "id": "VULN-303", "component": "auth",    "package": "bcrypt",         "current_version": "4.0.1",  "cve": "CVE-2023-1111",  "cvss": 9.1, "fix_version": "4.1.2",   "license": "Apache-2.0",   "detected_at": "2026-01-09" },
+    { "id": "VULN-304", "component": "gateway", "package": "nginx",          "current_version": "1.23.3", "cve": "CVE-2024-2222",  "cvss": 7.2, "fix_version": "1.25.4",  "license": "BSD-2-Clause", "detected_at": "2026-01-08" },
+    { "id": "VULN-305", "component": "gateway", "package": "libwebsockets",  "current_version": "4.3.1",  "cve": "CVE-2021-3333",  "cvss": 6.1, "fix_version": "4.3.4",   "license": "LGPL-2.1",     "detected_at": "2026-01-10" },
+    { "id": "VULN-306", "component": "cli",     "package": "click",          "current_version": "8.1.3",  "cve": "CVE-2020-4444",  "cvss": 3.7, "fix_version": "8.1.7",   "license": "BSD-3-Clause", "detected_at": "2026-01-05" },
+    { "id": "VULN-307", "component": "docs",    "package": "mkdocs",         "current_version": "1.4.2",  "cve": "CVE-2022-5555",  "cvss": 5.4, "fix_version": "",        "license": "MIT",          "detected_at": "2026-01-06" },
+    { "id": "VULN-308", "component": "api",     "package": "urllib3",        "current_version": "1.26.18","cve": "CVE-2023-7777",  "cvss": 9.8, "fix_version": "2.1.0",   "license": "MIT",          "detected_at": "2026-01-07" },
+    { "id": "VULN-309", "component": "auth",    "package": "cryptography",   "current_version": "41.0.7", "cve": "CVE-2024-8888",  "cvss": 7.8, "fix_version": "42.0.0",  "license": "Apache-2.0",   "detected_at": "2026-01-13" },
+    { "id": "VULN-310", "component": "gateway", "package": "realtime-proxy", "current_version": "1.3.0",  "cve": "CVE-2025-1000",  "cvss": 3.9, "fix_version": "1.4.0",   "license": "AGPL-3.0",     "detected_at": "2026-01-04" },
+    { "id": "VULN-311", "component": "cli",     "package": "requests",       "current_version": "2.31.0", "cve": "CVE-2023-2000",  "cvss": 7.0, "fix_version": "2.32.0",  "license": "Apache-2.0",   "detected_at": "2026-01-03" },
+    { "id": "VULN-312", "component": "docs",    "package": "jinja2",         "current_version": "3.0.3",  "cve": "CVE-2024-3000",  "cvss": 9.0, "fix_version": "3.1.3",   "license": "BSD-3-Clause", "detected_at": "2026-01-02" },
+    { "id": "VULN-313", "component": "api",     "package": "protobuf",       "current_version": "4.24.0", "cve": "CVE-2021-4000",  "cvss": 6.5, "fix_version": "4.25.1",  "license": "BSD-3-Clause", "detected_at": "2026-01-14" },
+    { "id": "VULN-314", "component": "auth",    "package": "oauthlib",       "current_version": "3.2.2",  "cve": "CVE-2020-5000",  "cvss": 4.0, "fix_version": "3.2.3",   "license": "BSD-3-Clause", "detected_at": "2026-01-15" },
+    { "id": "VULN-315", "component": "gateway", "package": "redis",          "current_version": "7.0.11", "cve": "CVE-2022-6000",  "cvss": 8.8, "fix_version": "",        "license": "BSD-3-Clause", "detected_at": "2026-01-16" },
+    { "id": "VULN-316", "component": "api",     "package": "sqlalchemy",     "current_version": "1.4.49", "cve": "CVE-2023-7000",  "cvss": 4.6, "fix_version": "2.0.25",  "license": "MIT",          "detected_at": "2026-01-17" },
+    { "id": "VULN-317", "component": "cli",     "package": "typer",          "current_version": "0.9.0",  "cve": "CVE-2021-8000",  "cvss": 8.0, "fix_version": "0.12.3",  "license": "MIT",          "detected_at": "2026-01-18" },
+    { "id": "VULN-318", "component": "docs",    "package": "markdown",       "current_version": "3.4.1",  "cve": "CVE-2019-9000",  "cvss": 2.7, "fix_version": "3.5.1",   "license": "BSD-3-Clause", "detected_at": "2026-01-19" }
+  ]
+}
