@@ -1,0 +1,22 @@
+{
+  "releases": [
+    {
+      "version": "v1.2.0",
+      "target_date": "2026-02-10",
+      "components": ["api", "auth", "gateway"],
+      "note": "Feature release for platform + auth hardening + gateway routing."
+    },
+    {
+      "version": "v1.2.1",
+      "target_date": "2026-02-24",
+      "components": ["cli"],
+      "note": "CLI patch-only release."
+    },
+    {
+      "version": "v1.3.0",
+      "target_date": "2026-03-15",
+      "components": ["api", "auth", "gateway", "cli", "docs"],
+      "note": "Quarterly roll-up release."
+    }
+  ]
+}
