@@ -1,0 +1,9 @@
+{
+  "components": [
+    { "component": "api",     "owner": "Ava Chen",   "email": "ava.chen@company.test",   "team": "Platform", "criticality": "tier1" },
+    { "component": "auth",    "owner": "Noah Patel", "email": "noah.patel@company.test", "team": "Security", "criticality": "tier1" },
+    { "component": "gateway", "owner": "Mina Tan",   "email": "mina.tan@company.test",   "team": "Edge",     "criticality": "tier1" },
+    { "component": "cli",     "owner": "Liam Wong",  "email": "liam.wong@company.test",  "team": "DevEx",    "criticality": "tier2" },
+    { "component": "docs",    "owner": "Sofia Reed", "email": "sofia.reed@company.test", "team": "Docs",     "criticality": "tier3" }
+  ]
+}
